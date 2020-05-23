@@ -107,7 +107,6 @@ end
 begin
   require 'action_mailbox'
   run('rails action_mailbox:install')
-  generate('mailbox inbox')
 rescue LoadError
 end
 
